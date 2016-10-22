@@ -1,0 +1,318 @@
+body {
+  font-family: 'Shojumaru', cursive;
+  margin: 0 auto;
+  /*max-width: 1000px;*/
+  background: #232323;
+}
+header {
+text-align: center;
+background: url('http://fraservalleypulse.com/wp-content/uploads/2012/08/target.jpg');
+height: 600px;
+background-size: cover;
+color: white;
+}
+a {
+color: white;
+text-decoration: none;
+font-family: 'Quicksand', sans-serif;
+}
+
+img {
+      max-height: 150px;
+}
+#header-ul {
+text-align: right;
+/*padding: 10px;*/
+background: rgba(0,0,0,0.5);
+}
+.header-il {
+display: inline;
+padding: 0px 10px 0px 10px;
+}
+div {
+background-size: cover;
+position: relative;
+margin: 40px 0 0 0;
+border-radius: 12px;
+}
+
+h1 {
+font-family: 'Holtwood One SC', serif;  
+text-align: center;
+font-size: 75px;
+color: #DAA520;
+margin: 60px 0 0 0;
+}
+h2 {
+  text-align: right;
+  font-family: 'Shadows Into Light', cursive;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+  padding: 100px;
+  text-shadow: 2px 2px black; 
+}
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 2px 2px black; 
+  color: #bbbbbb;
+  font-size: 30px;
+}
+
+
+.shows{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+}
+.textfirst {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+    margin-top: 0;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: 10px;
+}
+
+#element1-1{
+  background: url("https://si.wsj.net/public/resources/images/NY-BA519_NYCULT_G_20110626193702.jpg");
+  height: 300px;
+  width: 300px;
+}
+#element1-2{
+  background: url("http://images6.fanpop.com/image/photos/34500000/Cirque-du-soleil-cirque-du-soleil-34580379-345-293.jpg");
+  height: 300px;
+  width: 300px;
+}
+#element1-3{
+  background: url("http://gmbacircus.info/wp-content/uploads/2011/10/2174_CirqueDuSoleil.gif");
+  height: 300px;
+  width: 300px;
+}
+
+#element1-4{
+  background: url("https://www.cirquedusoleil.com/kurios/assets/img/kurios-acts-contortion.jpg");
+  height: 300px;
+  width: 300px;
+}
+.second{
+  height: 400px;
+  background-image: url(http://img11.deviantart.net/d9f6/i/2011/052/8/1/cirque_du_soleil_by_opticmiracle-d3a24m5.jpg);
+  position:relative;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.second-text{
+  background: rgba(54, 25, 25, .5);
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+ left: 30px;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 90%;
+    }
+#text-hist{
+ 
+  color:white;
+  font-size: 150%;
+}
+
+#text-our{
+  font-size:100%;
+}
+
+/*tercera seccion de la pag*/
+.third{
+  display: flex;
+    justify-content: space-around;
+    border: 10px;
+    border-radius: 12px;
+    list-style:none;
+    margin-bottom: 100px;
+ }
+
+ .element3{
+  background: #665C64;
+  height: 200px;
+  width: 300px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #979E9C;
+}
+
+.details{
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  
+}
+
+.book {
+    background-color: #045C87; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.book {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.book:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#li{
+  list-style:none;
+}
+/*fin del trecero*/
+
+
+
+/* FOOTER */
+.panel-footer {
+  box-shadow: 0 0 50px #232323;
+  border: 2px;
+  background-color: black;
+
+}
+
+.fourth{
+  display: flex;
+    justify-content: space-around;
+    border: 10px;
+    border-radius: 12px;
+    list-style:none;
+    margin-bottom: 100px;
+
+}
+
+p{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer-a{
+  margin-top: : 20px;
+}
+
+.f-i{
+  color:grey;
+}
+
+.text-center{
+  text-align: center;
+  color: white;
+
+}
+/*medium size*/
+@media (min-width: 768px) and (max-width: 991px) {
+  h1{
+    font-size: 60px;
+  }
+  .shows{
+    font-size: 20px
+  }
+  #text-hist{
+    font-size: 18px;
+  }
+ }
+/*small size*/
+@media (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    display: none;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+  .shows{
+    font-size: 20px;
+  }
+
+  #header-ul {
+  text-align: center;
+  }
+  .first{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    justify-content: space-around;
+  }
+  .second{
+    display: none;
+  }
+    #show-second{
+    display: none;
+  } 
+  
+ /* .third{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    }*/
+
+  .fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px; 
+  } 
+}
